@@ -1,0 +1,19 @@
+{
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Fira Code",
+  "textFontFamily": "Cambria Math,Anek Tamil,Mongolian Baiti,Constantia,Sitka Display",
+  "theme": "moonstone",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "interfaceFontFamily": "Inter",
+  "enabledCssSnippets": [
+    "shorter-links",
+    "hide-meta",
+    "geral",
+    "custom-memo"
+  ],
+  "accentColor": "#e651d2",
+  "showViewHeader": true,
+  "nativeMenus": false
+}

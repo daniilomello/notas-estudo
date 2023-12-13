@@ -1,0 +1,13 @@
+{
+  "accentColor": "#9d80ff",
+  "theme": "obsidian",
+  "translucency": false,
+  "nativeMenus": false,
+  "baseFontSize": 22,
+  "enabledCssSnippets": [],
+  "cssTheme": "Subtlegold",
+  "interfaceFontFamily": "Mulish",
+  "textFontFamily": "Mulish",
+  "monospaceFontFamily": "Operator Mono",
+  "showViewHeader": true
+}

@@ -1,0 +1,12 @@
+{
+  "timestamps": false,
+  "timestampFormat": "HH:mm:ss",
+  "translate": false,
+  "verbosity": 1,
+  "whisperASRUrl": "http://localhost:9000",
+  "kek_mode": false,
+  "debug": false,
+  "dev": false,
+  "scribeToken": "",
+  "transcription_engine": "whisper_asr"
+}

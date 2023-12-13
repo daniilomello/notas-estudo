@@ -1,0 +1,191 @@
+{
+  "choices": [
+    {
+      "id": "7bb562ae-ac61-43b7-ac89-41907e6b8546",
+      "name": "🎯 Add Objetivo",
+      "type": "Macro",
+      "command": false,
+      "macroId": "16d0b473-1266-4b51-9ece-a065499fbcd2"
+    },
+    {
+      "id": "8eefbe4a-501e-4e5d-b0ab-97d5a9a66a4f",
+      "name": "👷 Add Projeto",
+      "type": "Macro",
+      "command": false,
+      "macroId": "02e97ec4-30cc-40bc-a2ca-25ba2ff671f8"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Adicionar Objetivo",
+      "id": "16d0b473-1266-4b51-9ece-a065499fbcd2",
+      "commands": [
+        {
+          "name": "Add Objetivo",
+          "type": "NestedChoice",
+          "id": "4044e9e1-ffd9-4d42-a66a-26105dfb1519",
+          "choice": {
+            "id": "be1f0a10-7814-4a04-a44b-083c77c9f170",
+            "name": "Add Objetivo",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/06. Objetivo.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE}} - {{VALUE:Goal}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Objetivos"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "f29f1ece-3b69-4511-949f-389ee3db30ad",
+          "time": 200
+        },
+        {
+          "name": "Send to Kanban Board",
+          "type": "NestedChoice",
+          "id": "7d4f33b4-9d34-438d-86ce-34a669a7ac84",
+          "choice": {
+            "id": "38816ce8-b37b-410b-a92f-fafbf310a307",
+            "name": "Send to Kanban Board",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Objetivos.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{DATE}} - {{VALUE:Goal}}|{{VALUE:Goal}}]]\n\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## {{VALUE:Geral,Conhecimento,Vida,Profissional,Saude}}",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Adicionar Projeto",
+      "id": "02e97ec4-30cc-40bc-a2ca-25ba2ff671f8",
+      "commands": [
+        {
+          "name": "Criar Projeto",
+          "type": "NestedChoice",
+          "id": "25a323b3-2541-4278-882b-a0005508f5b5",
+          "choice": {
+            "id": "83b74e8f-c9db-4e4e-82cb-c5753ad71308",
+            "name": "Criar Projeto",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/07. Projeto.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "; {{VALUE:⚒ Add Project}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Projetos"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "2e272ae9-37c1-42d2-9481-7af2d2629da6",
+          "time": 200
+        },
+        {
+          "name": "Capture Project Board",
+          "type": "NestedChoice",
+          "id": "5418af37-9a53-43f1-80e5-08f6ac2ea416",
+          "choice": {
+            "id": "3ae0d3c9-eada-4b46-93ed-3322e1a98915",
+            "name": "Capture Project Board",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Projetos.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[; {{VALUE:⚒ Add Project}}|{{VALUE:⚒ Add Project}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Fazer",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line"
+}

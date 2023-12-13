@@ -1,0 +1,70 @@
+{
+  "savedFeeds": {
+    "Podcast Papo Web": {
+      "title": "Podcast Papo Web",
+      "url": "http://papoweb.upinside.com.br/?feed=podcast",
+      "artworkUrl": "https://is4-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f3/65/c8/f365c823-31dc-dd98-c5c7-541b34b2aedf/mza_9776423767928869392.png/100x100bb.jpg"
+    },
+    "The Futur with Chris Do": {
+      "title": "The Futur with Chris Do",
+      "url": "https://feeds.megaphone.fm/thefutur",
+      "artworkUrl": "https://is3-ssl.mzstatic.com/image/thumb/Podcasts116/v4/14/9f/84/149f84af-c40d-7b3f-abde-21bfaeaeac1f/mza_2340869697671685371.jpg/100x100bb.jpg"
+    }
+  },
+  "podNotes": {},
+  "defaultPlaybackRate": 1,
+  "playedEpisodes": {
+    "Como começar do zero no mercado web | Podcast Papo Web #001": {
+      "title": "Como começar do zero no mercado web | Podcast Papo Web #001",
+      "podcastName": "Podcast Papo Web",
+      "time": 11.181967,
+      "duration": 2821.74275,
+      "finished": false
+    }
+  },
+  "favorites": {
+    "icon": "lucide-star",
+    "name": "Favorites",
+    "shouldEpisodeRemoveAfterPlay": false,
+    "shouldRepeat": false,
+    "episodes": []
+  },
+  "queue": {
+    "icon": "list-ordered",
+    "name": "Queue",
+    "shouldEpisodeRemoveAfterPlay": true,
+    "shouldRepeat": false,
+    "episodes": []
+  },
+  "playlists": {},
+  "skipBackwardLength": 15,
+  "skipForwardLength": 15,
+  "currentEpisode": {
+    "title": "Como começar do zero no mercado web | Podcast Papo Web #001",
+    "streamUrl": "http://papoweb.upinside.com.br/wp-content/uploads/2019/06/ep01-como-comecar-do-zero-no-mercado-web.mp3",
+    "url": "http://papoweb.upinside.com.br/como-comecar-do-zero-no-mercado-web/",
+    "description": "Uma imersão na história do Robson V. Leite para descobrir como começar do zero e do jeito certo no mercado web.",
+    "podcastName": "Podcast Papo Web",
+    "artworkUrl": "http://papoweb.upinside.com.br/wp-content/uploads/2019/10/01-COMO-COMEÇAR-DO-ZERO-POD.jpg",
+    "episodeDate": "2019-06-17T19:33:09.000Z",
+    "feedUrl": "http://papoweb.upinside.com.br/?feed=podcast"
+  },
+  "timestamp": {
+    "template": "{{linktime}}"
+  },
+  "note": {
+    "path": "Literatura",
+    "template": "podcast: {{podcast}} - {{title}}\ntags: #podcast\n"
+  },
+  "download": {
+    "path": ""
+  },
+  "downloadedEpisodes": {},
+  "localFiles": {
+    "icon": "folder",
+    "name": "Local Files",
+    "shouldEpisodeRemoveAfterPlay": false,
+    "shouldRepeat": false,
+    "episodes": []
+  }
+}

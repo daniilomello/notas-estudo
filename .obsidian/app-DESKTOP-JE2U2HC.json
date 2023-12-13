@@ -1,0 +1,25 @@
+{
+  "attachmentFolderPath": "Mídias",
+  "showInlineTitle": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "Freelancers",
+    "mindset",
+    "mindset",
+    "Mindset",
+    "Greg"
+  ],
+  "foldIndent": true,
+  "foldHeading": true,
+  "strictLineBreaks": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 60
+  },
+  "readableLineLength": true,
+  "legacyEditor": false
+}

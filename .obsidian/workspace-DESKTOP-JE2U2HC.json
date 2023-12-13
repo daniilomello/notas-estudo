@@ -1,0 +1,267 @@
+{
+  "main": {
+    "id": "d3b84a840e0f7de4",
+    "type": "split",
+    "children": [
+      {
+        "id": "278d02554f275a61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcadd384220940fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ac65c940e108137",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f95ee6f0c083dfe",
+        "type": "tabs",
+        "dimension": 55.94202898550724,
+        "children": [
+          {
+            "id": "3505415d762b78b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f970de544352bb20",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "cfa839f5c86aab48",
+        "type": "tabs",
+        "dimension": 44.05797101449275,
+        "children": [
+          {
+            "id": "6f64cdff529ad977",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4e59f57d1e198f8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "98e63f997ad24fa3",
+    "type": "split",
+    "children": [
+      {
+        "id": "26117dcf66a278e5",
+        "type": "tabs",
+        "dimension": 54.06562054208274,
+        "children": [
+          {
+            "id": "25f476f06200be34",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b4f28cbb773067e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "09e4534a726569e1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "c0359ad15dcbba8b",
+        "type": "tabs",
+        "dimension": 45.93437945791726,
+        "children": [
+          {
+            "id": "ddc17343e84b4980",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4177482619086278,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "6f8907d952c8c657",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#permanente",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f34af502031e2704",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "zk-prefixer:Criar nova nota única": false,
+      "random-note:Abrir nota aleatória": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "open-vscode:VSCode": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false
+    }
+  },
+  "active": "fcadd384220940fa",
+  "lastOpenFiles": [
+    "Helping with tests.md",
+    "MOC.md",
+    "001. Temporarias/Curso Git e Github - Willian Justen.md",
+    "001. Temporarias/Criando um novo projeto no github pela cli.md",
+    "001. Temporarias/Como definir e atingir seus objetivos.md",
+    "001. Temporarias/Aplicando Zettel no Obsidian.md",
+    "004. MOC/Git.md",
+    "004. MOC/Obsidian.md",
+    "002. Literatura/202304082238 - Aplicando o Zettelkasten no Obsidian.md",
+    "001. Temporarias/The One-Person Business Model (How To Productize Yourself).md",
+    "006. Dump/One Person-Bussiness.md",
+    "Recording 20230418155835.webm",
+    "005. Projetos/Como eu organizo meu Obsidian.md",
+    "006. Dump/Brainstorm - Criação de produto..md",
+    "006. Dump",
+    "Brainstorm.md",
+    "Templates/03. Permenente.md",
+    "001. Temporarias/Como parar de esquecer tudo que você.md",
+    "Recording 20230411002009.webm",
+    "test.webm",
+    "Recording 20230410232904.webm",
+    "Untitled.md",
+    "Transcription-2023-04-11T02-08-12-995Z.md",
+    "Assets/Recording 20230410193712.webm",
+    "Recording 20230410193544.webm",
+    "Recording 20230410193503.webm",
+    "Recording 20230410193304.webm",
+    "Recording 20230410193226.webm",
+    "001. Temporarias/O modelo de negócios de uma pessoa.md",
+    "003. Permanente/O que são Fleeting notes.md",
+    "003. Permanente/O que são Map of Content (MOC).md",
+    "Assets/Pasted image 20230409114156.png",
+    "003. Permanente/O que são Literature notes.md",
+    "003. Permanente/O que são Permanent notes.md",
+    "Assets/Zetel no obsidian_230408_223508764_0.png",
+    "Templates/Slide Demo.md",
+    "Templates/01. Temporaria.md",
+    "Templates/04. Blog.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Pasted image 20230312193338.png",
+    "Pasted image 20230312193202.png",
+    "Pasted image 20230312193142.png",
+    "Pasted image 20230312193038.png",
+    "Pasted image 20230312192940.png",
+    "Pasted image 20230312192853.png",
+    "Pasted image 20230312192755.png",
+    "Pasted image 20230312192607.png"
+  ]
+}
